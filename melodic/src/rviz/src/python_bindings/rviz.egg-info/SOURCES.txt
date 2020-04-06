@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/python_bindings/rviz/__init__.py
+src/python_bindings/rviz.egg-info/PKG-INFO
+src/python_bindings/rviz.egg-info/SOURCES.txt
+src/python_bindings/rviz.egg-info/dependency_links.txt
+src/python_bindings/rviz.egg-info/top_level.txt

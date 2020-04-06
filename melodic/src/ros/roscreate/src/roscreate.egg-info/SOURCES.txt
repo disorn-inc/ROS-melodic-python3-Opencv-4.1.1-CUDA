@@ -1,0 +1,10 @@
+setup.py
+scripts/roscreate-pkg
+src/roscreate/__init__.py
+src/roscreate/core.py
+src/roscreate/roscreatepkg.py
+src/roscreate.egg-info/PKG-INFO
+src/roscreate.egg-info/SOURCES.txt
+src/roscreate.egg-info/dependency_links.txt
+src/roscreate.egg-info/top_level.txt
+test/test_roscreate_core.py

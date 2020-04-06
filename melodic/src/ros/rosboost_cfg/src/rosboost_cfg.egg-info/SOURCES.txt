@@ -1,0 +1,8 @@
+setup.py
+scripts/rosboost-cfg
+src/rosboost_cfg/__init__.py
+src/rosboost_cfg/rosboost_cfg.py
+src/rosboost_cfg.egg-info/PKG-INFO
+src/rosboost_cfg.egg-info/SOURCES.txt
+src/rosboost_cfg.egg-info/dependency_links.txt
+src/rosboost_cfg.egg-info/top_level.txt

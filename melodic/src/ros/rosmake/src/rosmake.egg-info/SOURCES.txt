@@ -1,0 +1,13 @@
+setup.py
+scripts/rosmake
+src/rosmake/__init__.py
+src/rosmake/engine.py
+src/rosmake/gcc_output_parse.py
+src/rosmake/package_stats.py
+src/rosmake/parallel_build.py
+src/rosmake.egg-info/PKG-INFO
+src/rosmake.egg-info/SOURCES.txt
+src/rosmake.egg-info/dependency_links.txt
+src/rosmake.egg-info/top_level.txt
+test/test_parallel_build.py
+test/test_rosmake_commandline.py

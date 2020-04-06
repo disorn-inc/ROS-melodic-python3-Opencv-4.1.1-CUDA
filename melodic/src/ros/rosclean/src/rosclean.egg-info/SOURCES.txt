@@ -1,0 +1,8 @@
+setup.py
+scripts/rosclean
+src/rosclean/__init__.py
+src/rosclean.egg-info/PKG-INFO
+src/rosclean.egg-info/SOURCES.txt
+src/rosclean.egg-info/dependency_links.txt
+src/rosclean.egg-info/top_level.txt
+test/test_rosclean.py

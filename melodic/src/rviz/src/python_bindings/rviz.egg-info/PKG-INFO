@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: rviz
+Version: 1.13.9
+Summary: 3D visualization tool for ROS.
+Home-page: http://wiki.ros.org/rviz
+Author: Dave Hershberger, David Gossow, Josh Faust
+Maintainer: William Woodall <william@osrfoundation.org>, Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+License: BSD, Creative Commons
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: roslib
+Requires: rospkg
+Requires: python_qt_bindings

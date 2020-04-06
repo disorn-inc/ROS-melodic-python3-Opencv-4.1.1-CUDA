@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: gencpp
+Version: 0.6.5
+Summary: C++ ROS message and service generators.
+Home-page: https://github.com/ros/gencpp/issues
+Author: Josh Faust, Troy Straszheim, Morgen Kjaergaard
+Maintainer: Dirk Thomas
+Maintainer-email: dthomas@osrfoundation.org
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: genmsg
