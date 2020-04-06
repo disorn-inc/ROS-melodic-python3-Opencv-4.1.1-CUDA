@@ -23,6 +23,5 @@ Any changes are allowed. See you at **pull requests** and **issues**!
 ```bash
 git clone https://github.com/rootadminwalker/ROS-melodic-python3.git
 cd ROS-melodic-python3.git
-chmod 755 ./install.sh
 ./install.sh
 ```
