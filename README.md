@@ -16,3 +16,13 @@ Now, we have did every thing for you. Use it happily!
 We'll upgrade the version of melodic everytime when ROS release a new version of it.
   
 Any changes are allowed. See you at **pull requests** and **issues**!
+
+# Installation
+**Note**: *We only have installtion for ubuntu and other ROS adapted linux distros. Sorry for Windows. We're happy you can make           a windows version at pull requests!*
+
+```bash
+git clone https://github.com/rootadminwalker/ROS-melodic-python3.git
+cd ROS-melodic-python3.git
+chmod 755 ./install.sh
+./install.sh
+```
