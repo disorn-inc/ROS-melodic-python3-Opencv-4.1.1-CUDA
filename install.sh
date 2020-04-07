@@ -68,15 +68,15 @@ sudo apt install -y libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
 sudo apt install -y python2.7-dev python3.6-dev python-dev python-numpy python3-numpy
 sudo apt install -y libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libdc1394-22-dev
 sudo apt install -y libv4l-dev v4l-utils qv4l2 v4l2ucp
-sudo apt install -y curl
+sudo apt install -y python3-sip* wget
 sudo apt update -y
 
 echo '[PROGRESS 2/3] Opencv 4.1.1 CUDA Version'
 echo '[INFO] Downloading Opencv 4.1.1'
 echo
 cd ~
-curl -L https://github.com/opencv/opencv/archive/4.1.1.zip -o opencv-4.1.1.zip
-curl -L https://github.com/opencv/opencv_contrib/archive/4.1.1.zip -o opencv_contrib-4.1.1.zip
+wget https://github.com/opencv/opencv/archive/4.1.1.zip -O opencv-4.1.1.zip
+wget https://github.com/opencv/opencv_contrib/archive/4.1.1.zip -O opencv_contrib-4.1.1.zip
 unzip opencv-4.1.1.zip
 unzip opencv_contrib-4.1.1.zip
 cd opencv-4.1.1/
