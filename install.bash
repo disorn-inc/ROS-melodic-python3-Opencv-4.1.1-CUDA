@@ -86,7 +86,7 @@ echo '[INFO] Building Opencv 4.1.1'
 echo
 mkdir build
 cd build/
-cmake -D WITH_CUDA=ON -D CUDA_ARCH_BIN="5.3,6.2,7.2,7.5" -D CUDA_ARCH_PTX="7.5" -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-4.1.1/modules -D WITH_GSTREAMER=ON -D WITH_LIBV4L=ON -D BUILD_opencv_python2=ON -D BUILD_opencv_python3=ON -D BUILD_TESTS=OFF -D BUILD_PERF_TESTS=OFF -D BUILD_EXAMPLES=OFF -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..
+cmake -DWITH_CUDA=ON -DCUDA_ARCH_BIN="5.3,6.2,7.2,7.5" -DCUDA_ARCH_PTX="7.5" -DOPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-4.1.1/modules -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.6m -DPYTHON_DIR=/usr/lib/x86_64-linux-gnu/libpython3.6m.so -DWITH_GSTREAMER=ON -DWITH_LIBV4L=ON -DBUILD_opencv_python2=ON -DBUILD_opencv_python3=ON -DBUILD_TESTS=OFF -DBUILD_PERF_TESTS=OFF -DBUILD_EXAMPLES=OFF -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=/usr/local ..
 make -j$(nproc)
 
 echo '[INFO] Installing Opencv 4.1.1'
